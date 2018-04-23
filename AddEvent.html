@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<title>Publish New Event
+</title>
+<meta charset="UTF-8">
+ <script src="AddEvent.js"></script> 
+ <link rel="stylesheet" type="text/css" href="AddEvent.css">
+<body>
+
+<h2 align="center">Publish New Event
+ </h2>
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+      <label for="fname">Title</label>     
+       </div>
+      <div class="col-75">
+        <input type="text" name="title" id="myInput">
+      </div>
+    </div>
+    <div class="row">
+      
+      
+   
+    <div class="row">
+      <div class="col-25">
+<label for="subject">Description</label>
+      </div>
+      <div class="col-75">
+        <textarea name="area" id="area"  style="height:200px"></textarea>
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-25">
+        <label for="country">Type</label>
+      </div>
+      <div class="col-75">
+        <select name= "type" id="type">
+          <option value="Voluntary" name="type" id="type">Voluntary</option>
+          <option value="Entertaining" name= "type" id="type">Entertaining</option>
+          <option value="Learning" name="type" id="type">Learning</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+
+        <label for="lname">Committees</label>
+      </div>
+      <div class="col-75">
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <input type="checkbox" name="checks" value="Design" id="language" /> Design</p>
+           <p><input type="checkbox" name="checks" value="Planning" id="language2" />Planning</p>
+           <p><input type="checkbox" name="checks" value="Advretising"  id="language"/> Advretising</p>
+      </div>
+
+      <div class="row">
+      <div class="col-25">
+        <label for="lname">Does the Event requires fee</label>
+      </div>
+      <div class="col-75">
+                <p></p>
+        <p></p>
+
+        <input type="radio" name="type" value="yes" id="h"/>Yes<br/>
+                <p></p>
+
+<input type="radio" name="type" value="no" id="r"/>No<br/>
+<p></p>
+<p></p>
+      </div>
+      <p></p>
+      <p></p>
+      <br>
+    <div class="row">
+      <p></p>
+      <p></p>
+            <br>
+       
+<button onclick="save()">save</button>
+    </div>
+    <div class="row"><p></p>
+<button onclick="func2()">show</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>
